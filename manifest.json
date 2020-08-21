@@ -10,7 +10,7 @@
 	    { "name": "isin", "type": "string", "optional": false, "description": "ISIN number to look up" }
     ],
     "output": [
-	    { "name": "ric_code", "description": "Retrieved BBG code" },
-	    { "name": "bbg_code", "description": "Retrieved RIC code" }
+	    { "name": "ric_code", "description": "Retrieved RIC code" },
+	    { "name": "bbg_code", "description": "Retrieved BBG code" }
     ]
 }
