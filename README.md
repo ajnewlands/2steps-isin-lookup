@@ -23,11 +23,11 @@ This demonstrates the use of metadata to define the input and output contract be
   "output": [
     { 
       "name": "ric_code", 
-      "description": "Retrieved BBG code" 
+      "description": "Retrieved RIC code" 
     },
     { 
       "name": "bbg_code",
-      "description": "Retrieved RIC code" 
+      "description": "Retrieved BBG code" 
     }
   ]
 }
