@@ -1,7 +1,7 @@
 {
     "package": "ISIN lookup",
     "major": 1,
-    "minor": 2,
+    "minor": 3,
     "arch": "AMD64",
     "run": "bin/isin_lookup",
     "os": "Linux",
