@@ -1,0 +1,14 @@
+[package]
+name = "isin_lookup"
+version = "0.1.0"
+authors = ["Andrew Newlands <andrewn@2steps.io>"]
+edition = "2018"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+csv="1.0"
+serde = { version = "1.0", features = ["derive"] }
+serde_derive = "1"
+serde_json="1.0"
+anyhow="1"

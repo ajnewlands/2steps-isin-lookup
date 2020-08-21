@@ -1,0 +1,16 @@
+{
+    "package": "ISIN lookup",
+    "major": 1,
+    "minor": 2,
+    "arch": "AMD64",
+    "run": "bin/isin_lookup",
+    "os": "Linux",
+    "description": "Look up vendor codes by ISIN",
+    "input": [
+	    { "name": "isin", "type": "string", "optional": false, "description": "ISIN number to look up" }
+    ],
+    "output": [
+	    { "name": "ric_code", "description": "Retrieved BBG code" },
+	    { "name": "bbg_code", "description": "Retrieved RIC code" }
+    ]
+}
